@@ -6,6 +6,7 @@
     background-image: url('img/bg.jpg'), url('img/img6.jpg');
     background-size: cover;
 } */
+
 .left{
     display: inline-block;
      /* border: 2px solid red;  */
@@ -43,7 +44,7 @@
 }
 .navbar li{
     display: inline-block;
-    font-size: 20px;
+    font-size: 21px;
 }
 .navbar li a{
     color: white;
@@ -72,9 +73,9 @@
 }
 .container {
     border: 2px solid white;
-    /* margin: 106px 80px; */
-    margin-right: 180px;
-    margin-left: 840px;
+    margin: 106px 80px;
+    /* margin-right: 180px;
+    margin-left: 800px; */
     padding: 75px;
     width: 33%;
     border-radius: 28px;
@@ -97,15 +98,16 @@
 .container button {
     display: block;
     width: 74%;
-    margin: 23px auto;
+    margin: 20px auto;
 }
 .details{
     display: inline-block;
-    width: 35%;
+    width: 60%;
     position: absolute;
     /* margin: 106px 80px; */
-    margin-left: 30px;
-    margin-top: 350px;
+    /* margin-right: 180px; */
+    margin-top: 290px;
+    margin-left: 1000px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
@@ -114,9 +116,6 @@
     padding: 2px;
     border-radius:2px;
 }
-/* p{
-    font-size: 20px;
-} */
 p {
    position: relative;
    font-family: 'Rubik Moonrocks', cursive;
