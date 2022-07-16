@@ -102,11 +102,11 @@
 }
 .details{
     display: inline-block;
-    width: 60%;
+    /* width: 60%; */
     position: absolute;
     /* margin: 106px 80px; */
     /* margin-right: 180px; */
-    margin-top: 290px;
+    margin-top: 250px;
     margin-left: 1000px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
