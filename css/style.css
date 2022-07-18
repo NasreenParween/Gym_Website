@@ -11,7 +11,7 @@
     display: inline-block;
      /* border: 2px solid red;  */
     position: absolute;
-    left: 60px;
+    left: 40px;
     top: 20px;
 }
 .left img{
@@ -22,13 +22,15 @@
 }
 .left div{
     text-align: center;
-    line-height: 10px;
+    line-height: 5px;
     font-size: 16px;
 }
 .mid{
     display: block;
     width: 45%;
     margin: 29px auto;
+    justify-content: center;
+    align-items: center;
     /* border: 2px solid pink; */
 }
 .right{
@@ -76,7 +78,7 @@
     margin: 106px 80px;
     /* margin-right: 180px;
     margin-left: 800px; */
-    padding: 75px;
+    padding: 35px;
     width: 33%;
     border-radius: 28px;
 }
@@ -84,7 +86,7 @@
     font-family: 'Baloo Bhai', cursive;
     text-align: center;
     display: block;
-    width: 508px;
+    width: 408px;
     padding: 1px;
     border: 2px solid black;
     margin: 11px auto;
@@ -93,6 +95,7 @@
 }
 .container h1 {
     text-align: center;
+    display: inline-block;
 }
 
 .container button {
@@ -106,8 +109,8 @@
     position: absolute;
     /* margin: 106px 80px; */
     /* margin-right: 180px; */
-    margin-top: 250px;
-    margin-left: 1000px;
+    margin-top: 150px;
+    margin-left: 900px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     cursor: pointer;
 }
